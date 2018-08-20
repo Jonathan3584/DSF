@@ -1,0 +1,226 @@
+<!-- You are currently working on the hamburger menu. Put the CSS in for the expanded menu. Set a z score if it helps. Get a CSS transform fix in for the time being. Adjust to a JS animation later if it seems better.
+
+Priorities:
+1. Fitted menu drop down
+2. Menu is out of the way
+3. Build the rest of the site skeleton  -->
+<!doctype html>
+<html class="no-js" lang="">
+
+<head>
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-36284842-2"></script>
+    <script>
+    window.dataLayer = window.dataLayer || [];
+
+    function gtag() { dataLayer.push(arguments); }
+    gtag('js', new Date());
+
+    gtag('config', 'UA-36284842-2');
+    </script>
+    <meta charset="utf-8">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <title>Dog Space Force</title>
+    <meta name="Dog Space Force" content="Welcome to the website of the world's first operational space militar.">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="manifest" href="site.webmanifest">
+    <link rel="apple-touch-icon" href="icon.png">
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.2.0/css/all.css" integrity="sha384-hWVjflwFxL6sNzntih27bfxkr27PmbbK/iSvJ+a4+0owXq79v+lsFkW54bOGbiDQ" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css?family=Orbitron" rel="stylesheet">
+    <link rel="stylesheet" href="nivo-slider.css" type="text/css" />
+    <script src="js/jquery-3.3.1.min.js" type="text/javascript">
+    >
+    </script>
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.1/jquery.min.js" type="text/javascript"></script>
+    <script src="js/jquery.nivo.slider.pack.js" type="text/javascript"></script>
+    <script type="text/javascript">
+    $(window).on('load', function() {
+        $('#slider').nivoSlider();
+    });
+    </script>
+</head>
+
+<body>
+    <div id="container">
+        <div id="headerWrapper">
+            <div id="header">
+                <div id="headerBar">
+                    <div id="logoBox">
+                        <img id="logo" src="./images/dogLogo.svg" />
+                        <h1 id="headerText">U.S. DOG SPACE FORCE</h1>
+                    </div>
+                    <div id="headerSearchWrapper">
+                        <div id="headerSearch">
+                            <form action="https://www.google.com/search" id="searchForm" method="get" name="searchform" target="_blank">
+                                <input name="sitesearch" type="hidden" value="example.com">
+                                <input autocomplete="on" class="form-control search" name="q" placeholder="Search in example.com" required="required" type="text">
+                                <button class="button" type="submit">Search</button>
+                            </form>
+                        </div>
+                        <div id="headerSocial">
+                            <div>
+                                <a class="hsLink fab fa-twitter" href="http://www.twitter.com/DogSpaceForce"></a>
+                            </div>
+                            <div>
+                                <a class="hsLink fab fa-instagram" href=""></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div id="navBar">
+                <a class="navLink" href="./index">
+                    <p class="navLinkText">HOME</p>
+                </a>
+                <a class="navLink" href="./about">
+                    <p class="navLinkText">ABOUT US</p>
+                </a>
+                <a class="navLink" href="./news">
+                    <p class="navLinkText">HUMAN SPACE FORCE</p>
+                </a>
+                <a class="navLink" href="./media">
+                    <p class="navLinkText">DSF MEDIA</p>
+                </a>
+                <div id="navSpacer"></div>
+            </div>
+        </div>
+    </div>
+    <div id="wrapper">
+        <div id="body">
+            <div id="content">
+                <div id="gallery">
+                    <div id="slider" class="nivoSlider">
+                        <img src="images/Determination.png" alt="Determination" title="REEEE" />
+                        <img src="images/Leadership.jpg" alt="At Rest" title="#htmlcaption" /></a>
+                        <img src="images/Visionary.png" alt="" title="This is an example of a caption" />
+                        <img src="images/Awe.png" alt="" />
+                        <img src="images/Rest.png" alt="" />
+                        <img src="images/spaceDog.png" alt="" />
+                    </div>
+                    <div id="htmlcaption" class="nivo-html-caption">
+                        <strong>This</strong> is an example of a <em>HTML</em> caption with <a href="#">a link</a>.
+                    </div>
+                </div>
+                <div id="twoPanelWrapper">
+                    <div class="twoPanel">
+                        <div class="panelStripe">
+                            <p class="panelLabel">LATEST NEWS</p>
+                        </div>
+                        <div class="tpContent"></div>
+                    </div>
+                    <div class="twoPanel">
+                        <div class="panelStripe">
+                            <p class="panelLabel">VIDEOS</p>
+                        </div>
+                        <div class="tpContent"></div>
+                    </div>
+                </div>
+                <div id="slideshow">
+                    <div class="panelStripe">
+                        <p class="panelLabel">PHOTO GALLERY</p>
+                    </div>
+                </div>
+                <div id="newsContent">
+                    <div class="panelStripe">
+                        <p class="panelLabel">NEWS FEED</p>
+                    </div>
+                    <div class="threePanelWrapper">
+                        <div class="threePanel">
+                            <h4 class="thpHeader">More Space Force Headlines</h4>
+                            <ul class="thpList">
+                                <li class="thpItem"><a href="google.com">Space Thing</a></li>
+                                <li class="thpItem"><a href="google.com">Dog Thing</a></li>
+                                <li class="thpItem2"><a href="google.com">Space Dog Thing</a></li>
+                            </ul>
+                        </div>
+                        <div class="threePanel">
+                            <h4 class="thpHeader">Through the Eyes of our Space Dogs</h4>
+                            <ul class="thpList">
+                                <li class="thpItem"><a href="google.com">Space Thing</a></li>
+                                <li class="thpItem"><a href="google.com">Dog Thing</a></li>
+                                <li class="thpItem2"><a href="google.com">Space Dog Thing</a></li>
+                            </ul>
+                        </div>
+                        <div class="threePanel">
+                            <h4 class="thpHeader">Senior Leader Priorities</h4>
+                            <ul class="thpList">
+                                <li class="thpItem"><a href="google.com">Space Thing</a></li>
+                                <li class="thpItem"><a href="google.com">Dog Thing</a></li>
+                                <li class="thpItem2"><a href="google.com">Space Dog Thing</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="threePanelWrapper">
+                        <div class="threePanel">
+                            <h4 class="thpHeader">Space Dog Families </h4>
+                            <ul class="thpList">
+                                <li class="thpItem"><a href="google.com">Space Thing</a></li>
+                                <li class="thpItem"><a href="google.com">Dog Thing</a></li>
+                                <li class="thpItem2"><a href="google.com">Space Dog Thing</a></li>
+                            </ul>
+                        </div>
+                        <div class="threePanel">
+                            <h4 class="thpHeader">Managing the Force</h4>
+                            <ul class="thpList">
+                                <li class="thpItem"><a href="google.com">Space Thing</a></li>
+                                <li class="thpItem"><a href="google.com">Dog Thing</a></li>
+                                <li class="thpItem2"><a href="google.com">Space Dog Thing</a></li>
+                            </ul>
+                        </div>
+                        <div class="threePanel">
+                            <h4 class="thpHeader">Satelite News</h4>
+                            <ul class="thpList">
+                                <li class="thpItem"><a href="google.com">Space Thing</a></li>
+                                <li class="thpItem"><a href="google.com">Dog Thing</a></li>
+                                <li class="thpItem2"><a href="google.com">Space Dog Thing</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div id="scrollPanel">
+                <div id="featured">
+                    <div class="panelStripe">
+                        <p class="panelLabel">FEATURED LINKS</p>
+                    </div>
+                </div>
+                <div id="partners">
+                    <div class="panelStripe">
+                        <p class="panelLabel">PARTNERS</p>
+                    </div>
+                </div>
+                <div id="spacer"></div>
+            </div>
+        </div>
+        <div id="footer">
+            <div id="footerLeft">
+                <div id="footerLeft1"></div>
+                <div id="footerLeft2"></div>
+            </div>
+            <div id="footerRight">
+                <img id="footerLogo" src="./images/dogLogo.svg" />
+                <div id="footerRightText">
+                    <p id="rftContent">Official US Dog Space Force Website</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    </div>
+    <script>
+    window.jQuery || document.write('<script src="js/vendor/jquery-3.3.1.min.js"><\/script>')
+    </script>
+    <script src="js/plugins.js"></script>
+    <script src="js/main.js"></script>
+    <!-- Google Analytics: change UA-XXXXX-Y to be your site's ID. -->
+    <script>
+    window.ga = function() { ga.q.push(arguments) };
+    ga.q = [];
+    ga.l = +new Date;
+    ga('create', 'UA-36284842-2', 'auto');
+    ga('send', 'pageview')
+    </script>
+    <script src="https://www.google-analytics.com/analytics.js" async defer></script>
+</body>
+
+</html>
