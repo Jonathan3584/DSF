@@ -258,11 +258,9 @@ Priorities:
                     <p id="ffLabelText">SUBSCRIBE TO USAF NEWS AND INFORMATION</p>
                 </div>
                 <div id="footerForm">
-                    <form onSubmit=>
-                        <label>First Name: </label>
-                        <input type="text" onChange={this.props.firstNameChange} value={this.props.fname}/>
-                        <br/>
-                        <input type="submit" id="formSubmit" value="Submit" />
+                    <form>
+                        <input type="text" value="email" />
+                        <button type="submit" id="formSubmit" value="Submit">SUBMIT<button/>
                     </form>
                 </div>
             </div>
