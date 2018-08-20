@@ -21,9 +21,10 @@ Priorities:
     <meta charset="utf-8">
     <meta http-equiv="x-ua-compatible" content="ie=edge">
     <title>Dog Space Force</title>
-    <meta name="Dog Space Force" content="Welcome to the website of the world's first operational space militar.">
+    <meta name="Dog Space Force" content="Welcome to the website of the world's first operational space military.">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <link rel="manifest" href="site.webmanifest">
+    <link rel="icon" href="images/dogLogo.png">
     <link rel="apple-touch-icon" href="icon.png">
     <link rel="stylesheet" type="text/css" href="style.css">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.2.0/css/all.css" integrity="sha384-hWVjflwFxL6sNzntih27bfxkr27PmbbK/iSvJ+a4+0owXq79v+lsFkW54bOGbiDQ" crossorigin="anonymous">
@@ -195,13 +196,74 @@ Priorities:
         </div>
         <div id="footer">
             <div id="footerLeft">
-                <div id="footerLeft1"></div>
-                <div id="footerLeft2"></div>
+                <div id="footerLeft1">
+                    <div class="footerStripe">
+                        <h3 class="footerLead">QUICK LINKS</h3>
+                    </div>
+                    <div id="fl1Content">
+                        <div class="flPanel">
+                            <ul class="fl1List">
+                                <li class="flLink"><a href="https://www.af.mil">US Air Force</a></li>
+                                <li class="flLink"><a href="https://www.marines.mil/">US Marines Corp</a></li>
+                                <li class="flLink"><a href="https://www.army.mil/">US Army</a></li>
+                                <li class="flLink"><a href="https://www.uscg.mil/">US Coast Guard</a></li>
+                                <li class="flLink"><a href="mailto:spacedogforce@gmail.com">Contact Us</a></li>
+                            </ul>
+                        </div>
+                        <div class=flPanel>
+                            <ul class="fl1List">
+                                <li class="flLink"><a href="https://www.af.mil">US Air Force</a></li>
+                                <li class="flLink"><a href="https://www.marines.mil/">US Marines Corp</a></li>
+                                <li class="flLink"><a href="https://www.army.mil/">US Army</a></li>
+                                <li class="flLink"><a href="https://www.uscg.mil/">US Coast Guard</a></li>
+                                <li class="flLink"><a href="mailto:spacedogforce@gmail.com">Contact Us</a></li>
+                            </ul>
+                        </div>
+                        <div class=flPanel>
+                            <ul class="fl1List">
+                                <li class="flLink"><a href="https://www.af.mil">US Air Force</a></li>
+                                <li class="flLink"><a href="https://www.marines.mil/">US Marines Corp</a></li>
+                                <li class="flLink"><a href="https://www.army.mil/">US Army</a></li>
+                                <li class="flLink"><a href="https://www.uscg.mil/">US Coast Guard</a></li>
+                                <li class="flLink"><a href="mailto:spacedogforce@gmail.com">Contact Us</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div id="footerLeft2">
+                    <div class="footerStripe">
+                        <h3 class="footerLead">CONNECT</h3>
+                    </div>
+                    <div>
+                        <div id="fl2Content">
+                            <div>
+                                <a class="fafLink fab fa-twitter" href="http://www.twitter.com/DogSpaceForce"></a>
+                            </div>
+                            <div>
+                                <a class="fafLink fab fa-instagram" href=""></a>
+                            </div>
+                            <div>
+                                <a class="fafLink fas fa-envelope" href="mailto:dogspaceforce@gmail.com"></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
             </div>
             <div id="footerRight">
-                <img id="footerLogo" src="./images/dogLogo.svg" />
+                <div id="footerLogoWrapper"><img id="footerLogo" src="./images/dogLogo.svg" /></div>
                 <div id="footerRightText">
                     <p id="rftContent">Official US Dog Space Force Website</p>
+                </div>
+                <div id="ffLabel">
+                    <p id="ffLabelText">SUBSCRIBE TO USAF NEWS AND INFORMATION</p>
+                </div>
+                <div id="footerForm">
+                    <form onSubmit=>
+                        <label>First Name: </label>
+                        <input type="text" onChange={this.props.firstNameChange} value={this.props.fname}/>
+                        <br/>
+                        <input type="submit" id="formSubmit" value="Submit" />
+                    </form>
                 </div>
             </div>
         </div>
