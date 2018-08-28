@@ -33,15 +33,19 @@ html, body {
 			}
 			.list_carousel {
 				background-color: #ccc;
-				margin: 0 0 30px 60px;
+				margin: 60px auto;
 				height: 200px;
 			}
 			.list_carousel ul {
-				position: fixed;
+				position: absolute;
 				margin: 0;
 				padding: 0;
 				list-style: none;
-				display: block;
+				display: inline block;
+				float: left;
+				width: auto;
+				overflow: hidden;
+				height: 210px;
 			}
 			.list_carousel li {
 				font-size: 40px;
@@ -53,8 +57,13 @@ html, body {
 				width: 300px;
 				padding: 0;
 				margin: 6px;
-				display: block;
+				display: inline block;
+				position: relative;
 				float: left;
+			}
+			.carouselImg {
+				width: 300px;
+				height: 200px;
 			}
 			.list_carousel.responsive {
 				width: auto;
