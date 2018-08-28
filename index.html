@@ -53,11 +53,8 @@ Priorities:
     });
     </script>
     <script type="text/javascript">
-    $('#carousel').carouFredSel({
-        auto: {
-            pauseOnHover: 'resume',
-            progress: '#timer1'
-        },
+    $('#foo2').carouFredSel({
+        auto: false,
         prev: '#prev2',
         next: '#next2',
         direction: 'left'
@@ -148,9 +145,9 @@ Priorities:
                 <div id="slideshow">
                     <div class="panelStripe">
                         <p class="panelLabel">PHOTO GALLERY</p>
-                        
+                        <div class="wrapper">
                             <div class="list_carousel">
-                                <ul id="carousel">
+                                <ul id="foo2">
                                     <li><a href="www.google.com"><img class="carouselImg" src="./images/space dogs/terrier.jpg" alt=""></a></li>
                                     <li><a href="www.google.com"><img class="carouselImg" src="./images/space dogs/bull.jpg" alt=""></a></li>
                                     <li><a href="www.google.com"><img class="carouselImg" src="./images/space dogs/mutt.jpg" alt=""></a></li>
@@ -164,7 +161,7 @@ Priorities:
                                 <div id="timer1" class="timer"></div>
                             </div>
                         </div>
-                    
+                    </div>
                 </div>
                 <div id="newsContent">
                     <div class="panelStripe">
